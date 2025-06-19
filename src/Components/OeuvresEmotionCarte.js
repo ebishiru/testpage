@@ -8,8 +8,10 @@ const OeuvresEmotionCard = () => {
                 cardData.map((data) => {
                     return (
                         <div className="oeuvres-emotion-card">
-                            <img src={data.imgSrc} alt={data.category} />
-                            <span>{data.category}</span>
+                            <div className="oeuvres-emotion-card-img-container">
+                                <img src={data.imgSrc} alt={data.category} />
+                                <span>{data.category}</span>
+                            </div>
                             <h3>{data.title}</h3>
                             <p>{data.content}</p>
                             <p className="quote">{data.quote}</p>
@@ -17,7 +19,6 @@ const OeuvresEmotionCard = () => {
                     )
                 })
             }
-            
         </div>
     )
 }

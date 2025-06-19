@@ -51,17 +51,16 @@ table {
 
 /* CSS RESET */ 
 
+html{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     background-color: #FDFDFD;
     font-family: "Questrial", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 p {
@@ -70,55 +69,98 @@ p {
 }
 
 .oeuvres-emotion-page {
-    margin: 3rem 5rem;
+    margin: 0 5rem;
 }
 
 .oeuvres-emotion-page > h2 {
     font-size: 55px;
     text-align: center;
-    margin: 2rem;
+    margin: 1.75rem;
 }
 
 .oeuvres-emotion-page > p {
     font-size: 30px;
     text-align: center;
-    margin: 2rem;
+    margin: 1rem 10rem;
 }
 
 .oeuvres-emotion-card-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 2rem;
 }
 
 .oeuvres-emotion-card {
     max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 3px 0px #0000004D;
+    box-shadow: 0px 4px 8px 3px #00000026;
+    margin: 1rem 0;
 }
 
-.oeuvres-emotion-card > img {
+.oeuvres-emotion-card-img-container {
+    position: relative;
+}
+
+.oeuvres-emotion-card-img-container > img {
     max-width: 400px;
     height: auto;
 }
 
-.oeuvres-emotion-card > span {
+.oeuvres-emotion-card-img-container > span {
     font-size: 12px;
     background-color: #EDEDED;
-    height: 83px;
-    min-width: 23px;
-    padding: 0.5rem 1.5rem 0.5rem 1rem;
+    min-width: 50px;
+    padding: 0.5rem 1.5rem 0.5rem 0.5rem;
     border-top-right-radius: 15px;
+    color: #416B65;
+    font-weight: bold;
     position: absolute;
-    top: 492px;
-    right: 5px;
+    bottom: 3px;
+    left: 0;
+    z-index: 1;
+
 }
 
 .oeuvres-emotion-card > h3 {
+    font-weight: 400;
     font-size: 25px;
+    line-height: 35px;
+    margin: 0.5rem 1rem 1rem 1rem;
 }
 
 .oeuvres-emotion-card > p {
+    font-family: Questrial;
+    font-weight: 400;
     font-size: 18px;
+    line-height: 30px;
+    color: #5D5D5D;
+    margin: 1rem;
+    margin-right: 2.5rem
 }
 
 .oeuvres-emotion-card > .quote {
     font-size: 15px;
+    line-height: 25px;
+    margin-right: 1.5rem;
     color: #DDA146;
+}
+
+.oeuvres-emotion-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.oeuvres-emotion-button-container > button {
+    border: 2px solid #DDA146;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    font-family: Questrial;
+    font-weight: 400;
+    font-size: 20px;
+    color: #DDA146;
+    line-height: 25px;
+    background-color: white;
+    margin: 2.25rem 0;
 }
