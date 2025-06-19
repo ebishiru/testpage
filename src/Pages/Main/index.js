@@ -1,10 +1,10 @@
-
+import { Link } from "react-router-dom";
 
 const Main = () => {
 
     return (
         <>
-            <p>Test</p>
+            <Link to="/oeuvresemotion">Oeuvre Emotion</Link>
         </>
     )
 }
