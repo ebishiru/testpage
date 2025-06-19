@@ -1,4 +1,4 @@
-import { cardData } from "../Data/cardData"
+import { oeuvresEmotionCardData as cardData } from "../Data/data";
 
 const OeuvresEmotionCard = () => {
 

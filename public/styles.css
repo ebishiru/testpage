@@ -68,6 +68,11 @@ p {
     color: #222;
 }
 
+.main-link {
+    display: block;
+    margin: 1rem;
+}
+
 .oeuvres-emotion-page {
     margin: 0 5rem;
 }

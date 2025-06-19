@@ -1,4 +1,4 @@
-export const cardData = [
+export const oeuvresEmotionCardData = [
     {   category: "Sérénité",
         title: "Échos du silence",
         content: "Une composition qui invite à la méditation et à l'introspection, avec des tons pastel et une structure délicate qui évoque le calme intérieur.",

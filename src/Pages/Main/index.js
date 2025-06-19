@@ -4,7 +4,9 @@ const Main = () => {
 
     return (
         <>
-            <Link to="/oeuvresemotion">Oeuvre Emotion</Link>
+            <Link className="main-link" to="/oeuvresemotion">Oeuvre Emotion</Link>
+            <Link className="main-link" to="/communiquerartiste">Communiquer Artiste</Link>
+            <Link className="main-link" to="/galeriethematique">Galerie Thematique</Link>
         </>
     )
 }
